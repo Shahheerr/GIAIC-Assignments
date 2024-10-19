@@ -16,7 +16,7 @@ export default function ServicesPage() {
             efficient code and cutting-edge technologies.
           </p>
           <Link 
-            href="/services/web-development" 
+            href="/services/b-development" 
             className="inline-block bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300"
           >
             Learn More
@@ -30,7 +30,7 @@ export default function ServicesPage() {
             drive engagement across all devices.
           </p>
           <Link 
-            href="/services/ui-ux-design" 
+            href="/services/ux-design" 
             className="inline-block bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300"
           >
             Learn More
