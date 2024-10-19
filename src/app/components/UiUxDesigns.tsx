@@ -6,32 +6,32 @@ export default function UIUXDesignPage() {
     {
       title: "User Research",
       description: "Understanding user behaviors, needs, and motivations through various research methods.",
-      icon: "/placeholder.svg?height=64&width=64&text=Research"
+      icon: "https://cdn-icons-png.flaticon.com/512/2884/2884824.png"
     },
     {
       title: "Information Architecture",
       description: "Organizing and structuring content to create intuitive navigation and user flows.",
-      icon: "/placeholder.svg?height=64&width=64&text=IA"
+      icon: "https://static.thenounproject.com/png/1782397-200.png"
     },
     {
       title: "Wireframing",
       description: "Creating low-fidelity sketches to establish the basic structure of your interfaces.",
-      icon: "/placeholder.svg?height=64&width=64&text=Wireframe"
+      icon: "https://cdn-icons-png.flaticon.com/512/1508/1508907.png"
     },
     {
       title: "Visual Design",
       description: "Crafting visually appealing interfaces that align with your brand identity.",
-      icon: "/placeholder.svg?height=64&width=64&text=Design"
+      icon: "https://cdn-icons-png.flaticon.com/512/4668/4668243.png"
     },
     {
       title: "Prototyping",
       description: "Building interactive prototypes to test and refine user interactions.",
-      icon: "/placeholder.svg?height=64&width=64&text=Prototype"
+      icon: "https://cdn-icons-png.flaticon.com/512/2644/2644380.png"
     },
     {
       title: "Usability Testing",
       description: "Evaluating designs with real users to ensure optimal user experience.",
-      icon: "/placeholder.svg?height=64&width=64&text=Testing"
+      icon: "https://cdn-icons-png.flaticon.com/512/10492/10492888.png"
     }
   ]
 
@@ -45,7 +45,7 @@ export default function UIUXDesignPage() {
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {designServices.map((service, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md p-6">
-            <Image
+            <img
               src={service.icon}
               alt={service.title}
               width={64}
