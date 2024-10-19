@@ -7,7 +7,7 @@ export default function App() {
           id: 1,
           title: 'E-commerce Platform',
           description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB.',
-          image: '/placeholder.svg?height=400&width=600&text=E-commerce+Platform',
+          image: 'https://media.licdn.com/dms/image/D4D12AQGlOU6qSRL9zg/article-cover_image-shrink_600_2000/0/1683622584991?e=2147483647&v=beta&t=h9DcJgCQCU_D1ObczXGAeIAp_WuVR3111nRQ0D5pJQM',
           tags: ['React', 'Node.js', 'MongoDB', 'Express'],
           link: '/projects/1',
         },
@@ -15,7 +15,7 @@ export default function App() {
           id: 2,
           title: 'Task Management App',
           description: 'A responsive task management application built with Next.js and Firebase.',
-          image: '/placeholder.svg?height=400&width=600&text=Task+Management+App',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW7HLg4xD0WXzi8A97d1gcTi0ZcWu2dW-phg&s',
           tags: ['Next.js', 'Firebase', 'Tailwind CSS'],
           link: '/projects/2',
         },
@@ -23,7 +23,7 @@ export default function App() {
           id: 3,
           title: 'Weather Dashboard',
           description: 'A real-time weather dashboard using React and a third-party weather API.',
-          image: '/placeholder.svg?height=400&width=600&text=Weather+Dashboard',
+          image: 'https://mir-s3-cdn-cf.behance.net/projects/404/62f108195718231.Y3JvcCw4MDgsNjMyLDAsMA.jpg',
           tags: ['React', 'API Integration', 'Chart.js'],
           link: '/projects/3',
         },
@@ -66,7 +66,7 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
           <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden">
-            <Image
+            <img
               src={project.image}
               alt={project.title}
               width={600}
