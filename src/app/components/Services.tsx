@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 export default function ServicesPage() {
+  // throw new Error("Error")
   return (
     <div className="mt-10 mb-10 space-y-12">
       <section className="text-center">
@@ -16,7 +17,7 @@ export default function ServicesPage() {
             efficient code and cutting-edge technologies.
           </p>
           <Link 
-            href="/services/b-development" 
+            href="./services/web-development" 
             className="inline-block bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300"
           >
             Learn More
@@ -30,7 +31,7 @@ export default function ServicesPage() {
             drive engagement across all devices.
           </p>
           <Link 
-            href="/services/ux-design" 
+            href="/services/ui-ux-design" 
             className="inline-block bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300"
           >
             Learn More
